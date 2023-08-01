@@ -1,0 +1,37 @@
+.projectsheadline {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+.prjcts {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2%;
+}
+.photoproject {
+    display: block;
+}
+.leftbox {
+    margin-right: 2%;
+}
+.rightbox {
+    margin-left: 2%;
+}
+.projectimage {
+    width: 100%;
+}
+.listofprojects {
+    background-color: #dddddd;
+}
+.buttonlinking {
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:700px) {
+    h1 {
+        font-size: 20px;
+    }
+    .viewmorebttn {
+        font-size: 12px;
+    }
+}

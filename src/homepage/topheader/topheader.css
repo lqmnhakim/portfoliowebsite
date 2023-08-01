@@ -1,0 +1,7 @@
+.headerphoto {
+    width: 100%;
+}
+.mainheader {
+    display: flex;
+    justify-content: center;
+}

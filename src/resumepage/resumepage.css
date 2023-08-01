@@ -1,0 +1,15 @@
+.cvheadliner {
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+}
+.cvpage {
+    background-color: #dddddd;
+    padding: 2%;
+}
+.resume {
+    width: 100%;
+}
+.headerbutton {
+    font-family: "Martel Sans", sans-serif;
+}

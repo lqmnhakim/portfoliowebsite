@@ -1,0 +1,19 @@
+.aboutsectionbox {
+    display: flex; 
+    justify-content: space-evenly;
+}
+.aboutmesection {
+    background-color: #dddddd;
+    padding: 2%;
+}
+.whowearepic {
+    width: 100%;
+}
+@media screen and (max-width:700px) {
+    .weblogo {
+        width: 100%; 
+    }
+    #footertext {
+        font-size: 12px;
+    }
+}

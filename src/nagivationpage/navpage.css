@@ -1,0 +1,68 @@
+.navigationbar {
+    background-color: white;
+}
+.navbarphoto {
+    display: flex;
+    justify-content: center;
+}
+.buttonnavbar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.headerbutton {
+    font-size: 30px;
+    border: none;
+    background-color: white;   
+}
+
+.mobilenavbar {
+    display: none;
+}
+.dropdowncontentmobile {
+    display: none;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    width: 100%;
+  }
+  .buttonnavbarmobile:hover .dropdowncontentmobile {
+    display: flex;
+    flex-direction: column;
+  }
+.wwlogo {
+    width: 100%;
+}
+.dropbtnmobile {
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    border: none;
+  }
+
+
+@media screen and (max-width:700px) {
+    .browsernavbar {
+        display: none;
+    }
+    .mobilenavbar {
+        display: block;
+    
+    }
+    .logomobile {
+        display: flex;
+        flex-direction: column;
+    }
+    .logomobile:hover {
+        display: flex;
+        flex-direction: column;
+    }
+    .wwlogo {
+        width: 100%;
+    }
+    .buttonnavbarmobile{
+        display: flex;
+        justify-content: center;
+    }
+
+}

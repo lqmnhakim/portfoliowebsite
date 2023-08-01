@@ -1,0 +1,15 @@
+.contactmepage {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+.contactheader {
+    padding-left: 2%;
+}
+p #footertext {
+    font-family: "Lato", sans-serif;
+    font-size: 17px;
+}
+.contactbox {
+    padding-right: 2%;
+}

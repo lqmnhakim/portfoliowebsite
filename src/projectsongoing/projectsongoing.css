@@ -1,0 +1,27 @@
+.currentprojects {
+    display: flex;
+    justify-content: center;
+}
+.fumeproject {
+    display: flex;
+    justify-content: space-evenly;
+}
+.photosprj {
+    width: 100%;
+}
+.fumewephotos {
+    margin: 1%;
+}
+.onprojects {
+    background-color: #dddddd;
+    padding: 2%;
+}
+.viewmorebttn {
+    font-size: 30px;
+}
+
+@media screen and (max-width:700px) {
+    h2 {
+        font-size: 20px;
+    }
+}
